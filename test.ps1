@@ -12,8 +12,8 @@ for ($i=0; $i -lt 10; $i++){
     Write-Output($i%2 -gt 0)#-gt >
     Write-Output('gu-su-'+$i)
     $array+=$i
-    new-Item .\test$i.txt #ファイル作成
-    remove-Item .\test$i.txt #ファイル削除
+    # new-Item .\test$i.txt #ファイル作成
+    # remove-Item .\test$i.txt #ファイル削除
   }
 }
 
